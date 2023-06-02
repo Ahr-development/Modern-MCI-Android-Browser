@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/backBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_back"
+            app:iconGravity="top"
+            android:background="?attr/selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:text="بازگشت"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/forwardBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_forward"
+            app:iconGravity="top"
+            android:background="?attr/selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:text="جلو رفتن"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_save"
+            app:iconGravity="top"
+            android:background="?attr/selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:text="ذخیره"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bookmarkButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_bookmark"
+            app:iconGravity="top"
+            android:background="?attr/selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:text="نشانک"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/desktopModeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_desktop"
+            app:iconGravity="top"
+            android:background="?attr/selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:text="حالت کامپیوتر"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fullScreenButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:icon="@drawable/ic_fullscreen"
+            app:iconGravity="top"
+            android:background="?attr/selectableItemBackground"
+            app:iconTint="@color/black"
+            android:textColor="@color/black"
+            android:text="تمام صفحه"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MCI Browser</string>
+    <string name="enter_url">متنی یا لینک برای جستجو وارد نمایید</string>
+    <string name="go_btn">رفتن به</string>
+    <string name="settings_btn">تنظیمات</string>
+    <string name="search_hint">جستجو</string>
+
+    <string name="homePage">خانه</string>
+    <string name="bookmark">نشانک ها</string>
+    <string name="back">برگشت</string>
+    <string name="forward">جلو رفتن</string>
+    <string name="fullscreen">تمام صفحه</string>
+    <string name="save">ذخیره</string>
+    <string name="desktop">نمای رایانه</string>
+    <string name="bookmark_name">عنوان نشانک</string>
+    <string name="view_all">نمایش همه نشانک ها</string>
+    <string name="all_bookmarks">تمامی نشانک ها</string>
+    <string name="refresh_btn">بارگذاری مجدد</string>
+    <string name="one">1</string>
+</resources>
